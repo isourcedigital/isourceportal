@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>window.open Example</title>
-
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>
+
     <script type="text/javascript" charset="utf-8">
 
     // Wait for Cordova to load
@@ -13,10 +15,11 @@
     // Cordova is ready
     //
     function onDeviceReady() {
+
         // external url
-        var ref = window.open(encodeURI('http://apache.org'), '_blank', 'location=yes');
+        ref =window.open(encodeURI('http://apache.org'), '_blank', 'location=yes');
         // relative document
-        ref = window.open('next.html', '_self');
+        //ref = window.open('next.html', '_self');
     }
 
     </script>
