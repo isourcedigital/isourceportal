@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>jQuery Mobile Web App</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>
-
-    <script type="text/javascript" charset="utf-8">
-
-    // Wait for Cordova to load
-    //
-    document.addEventListener("deviceready", onDeviceReady, false);
-
-    // Cordova is ready
-    //
-    function onDeviceReady() {
-
-        // external url
-        ref =window.open(encodeURI('http://apache.org'), '_blank', 'location=yes');
-        // relative document
-        //ref = window.open('next.html', '_self');
-    }
-
-    </script>
-  </head>
-  <body>
-  </body>
+<html> 
+<body onload="document.location.href='http://apache.org';"> 
+<h1>Loading....</h1> 
+</body> 
 </html>
